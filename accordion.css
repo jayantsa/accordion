@@ -1,0 +1,15 @@
+div{
+  display:block;
+  background-color:pink;
+  border-radius:7px;
+  height:0px;
+  opacity: 0;
+  /*overflow:hidden;*/
+  transition:0.25s linear;
+}
+
+#acc1:target,#acc4:target,#acc2:target,#acc3:target{
+  height:100px;
+  border:1px solid black;
+  opacity: 1;
+ }
